@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    "transform-es2015-modules-commonjs"
+  ],
+  "presets": [
+    ["es2015", {
+      "targets": {
+        "browsers": ["last 2 versions", "safari >= 7", ">= 2%"]
+      }
+    }]
+  ]
+}
